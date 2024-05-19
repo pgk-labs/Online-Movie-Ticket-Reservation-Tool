@@ -1,9 +1,0 @@
-\xampp\mysql\data <- εδω μπαινει ο φακελος ticket_reservation
-
-
-\xampp\mysql\data
-^
-|
- εδω μπαινουν τα ib_logfile0, ib_logfile1 και ibdata1
-
-Το TICKETS.sql είναι για να γίνει import η βάση απ το phpmyadmin
