@@ -1,0 +1,23 @@
+Instructions for Setting Up the Project
+
+Install the software from Apache (https://www.apachefriends.org/download.html)
+
+After installation, start the Apache and MySQL services.
+
+Copy the necessary files to the XAMPP directory as below:
+
+Place the ticket_reservation folder in the xampp/mysql/data directory.
+
+Place the ib_logfile0, ib_logfile1, and ibdata1 files in the xampp/mysql/data directory.
+
+Use the TICKETS.sql file to import the database via phpMyAdmin.
+
+
+Finally, import the project into NetBeans.
+
+
+Make sure you import also the mysql-connector into the project directory. If not, the error "Cannot connect to database" will come up continiously.
+
+
+For a demo showcasing the project and its functionality, you can watch the following YouTube video:
+https://www.youtube.com/watch?v=czl_g0U5cSg
