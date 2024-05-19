@@ -1,23 +1,20 @@
-Instructions for Setting Up the Project
+1) Install the software from Apache (https://www.apachefriends.org/download.html)
 
-Install the software from Apache (https://www.apachefriends.org/download.html)
+2) After installation, start the Apache and MySQL services.
 
-After installation, start the Apache and MySQL services.
+3) Copy the necessary files to the XAMPP directory as below:
 
-Copy the necessary files to the XAMPP directory as below:
+a) Place the ticket_reservation folder in the xampp/mysql/data directory.
 
-Place the ticket_reservation folder in the xampp/mysql/data directory.
+b) Place the ib_logfile0, ib_logfile1, and ibdata1 files in the xampp/mysql/data directory.
 
-Place the ib_logfile0, ib_logfile1, and ibdata1 files in the xampp/mysql/data directory.
-
-Use the TICKETS.sql file to import the database via phpMyAdmin.
-
+c) Use the TICKETS.sql file to import the database via phpMyAdmin.
 
 Finally, import the project into NetBeans.
 
+*Make sure you also import the mysql-connector into the project libraries. If not, the error "Cannot connect to database" will come up continiously.
 
-Make sure you import also the mysql-connector into the project directory. If not, the error "Cannot connect to database" will come up continiously.
-
+*In order for both admin panel and user gui to be export, make sure that you the project configuration Main class is TOR.UserGUI (in order to export User GUI) OR TOR.AdminGUI (in order to export Admin GUI).
 
 For a demo showcasing the project and its functionality, you can watch the following YouTube video:
 https://www.youtube.com/watch?v=czl_g0U5cSg
