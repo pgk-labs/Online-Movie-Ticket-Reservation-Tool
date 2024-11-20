@@ -44,3 +44,7 @@ Once all the data is entered by the user, they need to provide their details (Na
 
 
 See "Howto.txt" in order to setup correctly the Netbeans environment.
+
+video tutorial:
+
+https://www.youtube.com/watch?v=czl_g0U5cSg&t=1s
